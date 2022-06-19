@@ -6,6 +6,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="changeling.xml" url="https://raw.githubusercontent.com/aweizman/auroraContent/main/race-aarakocra.xml" />
+		<file name="race-aarakocra.xml" url="https://raw.githubusercontent.com/aweizman/auroraContent/main/race-aarakocra.xml" />
+		<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/aweizman/auroraContent/main/race-aasimar.xml" />
 	</files>
 </index>

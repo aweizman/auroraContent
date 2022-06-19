@@ -55,7 +55,7 @@
     </element>
     <element name="Talons" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_AARAKOCRA_TALONS">
         <description>
-            <p>You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + {{aarakocra talon:damage}} slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
+            <p>You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
         </description>
         <sheet>
             <description>You have talons that you can use to make unarmed strikes. When you hit with them, the strike deals 1d6 + {{aarakocra talon:damage}} slashing damage, instead of the bludgeoning damage normal for an unarmed strike.</description>
@@ -70,7 +70,7 @@
             <p>Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast gust of wind with this trait (choose when you select this race).</p>
         </description>
         <sheet>
-            <description level="3">Starting at 3rd level, you can cast the gust of wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher. Intelligence, Wisdom, or Charisma is your spellcasting ability for it when you cast gust of wind with this trait (choose when you select this race).</description>
+            <description usage="1/Long Rest" level="3">Starting at 3rd level, you can cast the gust of wind spell with this trait, without requiring a material component. Once you cast the spell with this trait, you can’t do so again until you finish a long rest. You can also cast the spell using any spell slots you have of 2nd level or higher. (Spellcasting: Intelligence, Wisdom, or Charisma).</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" />
